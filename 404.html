@@ -2,25 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" content="initial-scale=1">
   <title>404 Page Not Found</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="pageWrap">
   <header>
-    <h2><strong>GOV</strong>LAB</h2>
+  <img src="css/govlab-logo-white.svg" alt="Smiley face" height="100" width="100">
   </header>
-  <div class="container">
-    <h3>Hey now</h3>
-    <p>Brown cow</p>
+  <div class="mainText">
+    <h2>ERROR 404</h2>
+    <h2 class="grayText">WE COULDN'T FIND WHAT YOU WERE LOOKING FOR</h2>
+    <button class="btn btn-primary btn-lg">BACK TO THE HOMEPAGE</button>
   </div>
   <div class="mainSections">
-
+    <h2 class="grayText">YOU CAN SEE OUR MAIN SECTIONS BELOW</h2>
+    <div class="row">
+      <div class="col-sm-3 col-xs-3 removePadding">
+        <div class="box" id="box1">
+          <h2>PROJECTS</h2>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-3 removePadding">
+        <div class="box" id="box2">
+          <h2>OBSERVATORY</h2>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-3 removePadding">
+        <div class="box" id="box3">
+          <h2>ACADEMY</h2>
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-3 removePadding">
+        <div class="box" id="box4">
+          <h2>COMMUNITY</h2>
+        </div>
+      </div>
+    </div>
   </div>
   <footer>
-    <p>
-      footer text
-    </p>
+    <div class="row no-gutter">
+          <div class="large-10 large-centered columns">
+              <a class="e-cc-badge" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+              This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> <br> <a href="#">Copyright Infringement Information</a>.
+          </div>
+      </div>
   </footer>
 </body>
 </html>

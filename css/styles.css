@@ -1,10 +1,54 @@
 body {
+  font-family: Helvetica;
   color: white;
   background-color: #4d4d4d;
   text-align: center; }
 
+.pageWrap {
+  max-height: 1600px;
+  height: 100%;
+  max-width: 1600px;
+  width: 100%; }
+
+.btn {
+  background-color: #51307f; }
+
 header {
+  max-width: 1600px;
+  width: 100%;
   background-color: #454545; }
 
+.grayText {
+  color: gray; }
+
+.mainText {
+  margin-bottom: 300px; }
+
+.mainSections {
+  max-width: 1600px;
+  width: 100%; }
+
+.box {
+  max-width: 400px;
+  width: 100%;
+  height: 350px; }
+
+.removePadding {
+  padding: 0; }
+
+#box1 {
+  background-color: #51307f; }
+
+#box2 {
+  background-color: #008793; }
+
+#box3 {
+  background-color: #ed5b42; }
+
+#box4 {
+  background-color: #058ab3; }
+
 footer {
-  background-color: #333; }
+  background-color: #333;
+  height: 70px;
+  padding-top: 5px; }
