@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   color: white;
   background-color: #4d4d4d;
   text-align: center; }
@@ -16,7 +16,9 @@ body {
 header {
   max-width: 1600px;
   width: 100%;
-  background-color: #454545; }
+  max-height: 100px;
+  background-color: #454545;
+  padding-bottom: 45px; }
 
 .grayText {
   color: gray; }
@@ -31,11 +33,13 @@ header {
 .box {
   max-width: 400px;
   width: 100%;
-  height: 350px;
-  padding-top: 5%; }
+  height: 350px; }
 
 .box h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .removePadding {
   padding: 0; }
